@@ -1,0 +1,849 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+img{
+	max-width: 100% !important;
+	width: 100%;
+    
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
+
+/*********** typography****************/
+/* devanagari */
+@font-face {
+	font-family: 'Poppins-Regular';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../web-fonts/Poppins-Regular.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: 'Poppins-Medium';
+	font-style: normal;
+
+	src: url(../web-fonts/Poppins-Medium.ttf) format('truetype');
+  }
+  @font-face {
+	font-family: 'Poppins-SemiBold';
+	font-style: normal;
+
+	src: url(../web-fonts/Poppins-SemiBold.ttf) format('truetype');
+  }
+  @font-face {
+	  font-family: 'Poppins-Bold';
+	  src: url(../web-fonts/Poppins-Bold.ttf);
+  }
+  body{
+	
+	font-family: 'Poppins-Regular', sans-serif;
+	
+}
+
+
+
+
+
+/******************** navbar styling ************************************/
+
+.header{
+	background-color: #daac00;
+}
+
+.navbar-toggler-icon{
+	color:white;
+}
+.navbar-nav .nav-item{
+	padding: 0 13px;
+}
+.navbar-nav .nav-link{
+	font-size:19px;
+	color:white;
+	padding: 0 20px;
+	font-family: 'Poppins-Medium', sans-serif;
+	text-align: center;
+}
+header .form-inline{
+	justify-content: center;
+    box-shadow: 0 5px 5px rgb(52 52 52 / 30%);
+
+}
+.search-input::placeholder {
+	color: #fff;
+	opacity:1;
+
+  }
+.search-input {
+
+    border-radius: 0;
+    background:#fcc302;
+	border: 0;
+	color: #fff;
+}
+.search-btn{
+	background-color: #00bec9;
+	color:white;
+	border-radius: 0;
+}
+
+/******************* header section *************************/
+.banner{
+    padding: 30px 0;
+    background: #fcc302;
+}
+.banner .s-text{
+    padding:60px;
+}
+.banner h1{
+	font-size: 50px;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+    color: #fff;
+}
+.banner p{
+	font-size: 25px;
+	font-family: 'Poppins-Regular', sans-serif; 
+    color: #fff;
+}
+.banner .btn{
+	font-size: 20px;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+	margin: 5px 0;
+}
+.banner .contact-button {
+    background: #00bec9;
+	margin-right: 10px;
+	color:white;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+}
+.contact-button:hover{
+    color: #00bec9;
+	background:white;
+}
+
+/* 
+Call to Action section*/
+
+.cta{
+
+	margin:24px 0;
+	padding:70px 0;
+}
+.cta-text{
+	padding: 70px 20px 60px 0 ;
+}
+.cta-text h1{
+	color:#313243;
+	font-size:50px;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+
+}
+.cta-text p{
+	font-size: 20px;
+	font-family: 'Poppins-Regular', sans-serif; 
+    
+}
+.cta-text .btn{
+	background: #fcc302;
+	color:white;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+}
+.cta-play-btn{
+	position: absolute;
+	top: 40%;
+    right: 40%;
+    width:10% !important;
+}
+.cta-text .btn:hover{
+    background-color:#64d9e6
+}
+
+.cta .main-img{
+	padding-left: 30px;
+}
+/*********services section*************/
+.services {
+    text-align: center;
+    margin:24px 0;
+	padding:50px 0;
+    background: #fcc302;
+}
+.services h1{
+	font-family: 'Poppins-Bold', sans-serif; 
+    color:#fff;
+}
+.services p{
+	font-family: 'Poppins-Regular', sans-serif; 
+    color:#fff;
+    font-size: 20px;
+}
+.services .row{
+    margin: 20px 0;
+}
+.mycard h1{
+    font-family: 'Poppins-SemiBold', sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+}
+.mycard p{
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.card-img{
+    padding: 20px 0;
+}
+
+
+/* Call to Action Section 2 */
+.cta1-text h1{
+	color:#313243;
+	font-size:50px;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+
+}
+.cta1-text p{
+	font-size: 20px;
+	margin: 20px 0;
+	font-family: 'Poppins-Regular', sans-serif; 
+}
+#cta-1-play-btn{
+	position: absolute;
+	top: 50%;
+	right: 50%;
+    width:10% !important;
+}
+.cta .cta1-text{
+    text-align: right;
+    padding: 48px 0 48px 20px ;
+}
+.cta1-text .btn{
+	background: #fcc302;
+	color:white;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+}
+.cta1-text .btn:hover{
+    background-color:#64d9e6
+}
+.cta-btn-div{
+	justify-content: flex-end;
+    display: flex;
+}
+
+
+/* pricing section */
+.pricing{
+    text-align: center;
+    margin:24px 0;
+	padding:50px 0;
+    background: #fcc302;
+
+}
+.pricing h1{
+	font-family: 'Poppins-Bold', sans-serif; 
+    color:#fff;
+    
+}
+.pricing p{
+	font-family: 'Poppins-Regular', sans-serif; 
+    color:#fff;
+    font-size: 20px;
+}
+.stike-through{
+	text-decoration: line-through;
+	margin: 0 10px;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+}
+
+.buy{
+		border-radius: 40px;
+		background:#00bec9 ;
+		color: #fff;
+		margin-bottom: 20px;
+		padding: 8px 30px;
+		font-family: 'Poppins-SemiBold', sans-serif; 
+}
+	
+
+	/**team section */
+	.team{
+		padding: 70px 0;
+        text-align: center;
+
+	}
+
+	.team h1{
+		font-family: 'Poppins-Bold', sans-serif; 
+		font-size: 45px;
+	}
+	.team p{
+		font-family: 'Poppins-Regular', sans-serif; 
+		font-size: 20px;
+        
+	}
+	
+	/****team card**********/
+	.team-card{
+        margin-top: 30px;
+    }
+	.team-card h1{
+	color: #313243;
+	padding: 10px 0 0 0;
+	font-size: 28px;
+    line-height: 30px;
+	margin: 0;
+	font-family: 'Poppins-Bold', sans-serif; 
+	}
+	.team-card p{
+	color: #313243;
+	font-size: 17px;
+	font-family: 'Poppins-Regular', sans-serif; 
+    line-height: 22px;
+	}
+	.social-icon-div{
+		margin-bottom: 20px;
+	}
+	.social-icon{
+		
+			width: 27px;
+			height: 27px;
+			background: #fcc302;
+			border-radius: 100%;
+			color: #fff;
+			margin: 0 5px;
+			line-height: 28px;
+			font-size: 14px;
+		
+	}
+    /********counter ***************/
+    .counter{
+        background-image: url('../images/counter-background.jpg');
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+		padding: 70px 0;
+        text-align: center;
+    }
+	
+    .counter h1{
+        font-size: 30px;
+		font-family: 'Poppins-Medium', sans-serif; 
+        color:white;
+    }
+    .counter p{
+      
+		font-family: 'Poppins-Bold', sans-serif; 
+		font-size: 25px;
+        color: white;
+    }
+.counter .mycard .card-img {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 29px;
+}
+.counter .row :nth-child(2) .card-img{
+	margin-bottom: 10px;
+}
+
+
+
+
+    /**********************post section************************/
+
+    .post{
+        padding: 70px 0;
+        text-align: center;
+    }
+    .post h1{
+        font-family: 'Poppins-Bold', sans-serif; 
+		font-size: 45px;
+    }
+    .post p{
+        font-family: 'Poppins-Regular', sans-serif; 
+		font-size: 20px;
+    }
+    .card-deck{
+        margin: 30px 0;
+    }
+     .card-deck h5{
+        font-size: 20px;
+        font-family: 'Poppins-SemiBold', sans-serif; 
+		color: #343434;
+    }
+    .card-deck .date{
+        font-size: 16px;
+        color:#00bec9;
+		font-family: 'Poppins-Regular', sans-serif; 
+    }
+    .card-deck .card-text{
+        font-size: 14px;
+		font-family: 'Poppins-Regular', sans-serif; 
+    }
+     .read-btn a{ 
+        font-size: 14px;
+        color:#00bec9;
+		font-family: 'Poppins-Medium', sans-serif; 
+    }
+	
+    /************footer****************/
+    footer{
+        background:#343434;
+        padding: 70px 0;
+        color: #fff;
+    
+    }
+    footer .row{
+        justify-content: space-between;
+    }
+.footer-nav h3{
+    font-size: 30px;
+	font-family: 'Poppins-SemiBold', sans-serif; 
+    margin-left: 23px;
+	
+}
+
+.footer-nav .nav-link{
+    font-size: 18px;
+	font-family: 'Poppins-Regular', sans-serif; 
+    line-height: 25px;
+    text-align: left;
+   
+}
+
+
+footer .desc .search-input{
+    padding: 32px;
+}
+footer .desc{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+ .desc h1{
+	font-family: 'Poppins-SemiBold', sans-serif; 
+	font-size: 30px;
+
+}
+.desc p{
+	font-family: 'Poppins-Regular', sans-serif; 
+    font-size: 18px;
+}
+ .desc .search-btn{
+    padding: 19px 25px;
+}
+ .desc .form-inline{
+	flex-wrap: nowrap;
+}
+footer .social-icon-div{
+	margin-top: 26px;
+}
+footer .social-icon{
+    color: #343434;
+    background-color: #fff;
+    text-align: center;
+
+}
+	/*******************************************************************media queries***************************************************************/
+
+	
+	@media screen and (max-width:1199px) and (min-width:992px) {
+        .navbar .form-inline{
+            flex-wrap: nowrap;
+        }
+        .navbar-nav .nav-link{
+            font-size:18px;
+        }
+		
+	}
+    @media (max-width:991px) and (min-width:768px){
+        .form-inline .form-control {
+		
+			width: auto;
+            justify-content: center;
+		}
+        .navbar .form-inline{
+            flex-wrap: nowrap;
+        }
+        .banner img{
+            display: none;
+
+        }
+		.banner h1 {
+			font-size: 45px;
+		}
+	
+	.banner p {
+		font-size: 22px;
+	}
+	.cta-text h1 {
+		font-size: 45px;
+	
+	}
+	.cta1-text h1 {
+		text-align: left;
+		font-size: 45px;
+	}
+	.cta1-text p {
+		text-align: left;
+	}
+	.cta-btn-div {
+		justify-content: flex-start;
+	
+	}
+		.mycard h1{
+			font-size: 22px;
+			line-height: 22px;
+		}
+		.mycard p{
+			font-size: 15px;
+			line-height: 22px;
+
+			
+		}
+		.buy{
+			
+				padding: 5px 19px;
+				font-size: 16px;
+			
+		}
+
+		.team-card h1 {
+		 
+			font-size: 19px;
+			
+		 
+		}
+		.team-card p{
+			margin-bottom: 10px;
+		}
+
+
+		.card-deck .card {
+		
+			flex: 0;
+			flex: 1 1 auto;
+			margin-bottom: 15px;
+		
+		}
+        .footer-nav .navbar-nav{
+            align-items: center;
+        }
+        .footer-nav h3{
+            text-align: center;
+            margin: 0;
+        }
+         footer .desc {
+                    align-items: center;
+                    padding-top: 20px;
+                }
+                .footer-nav .nav-link{
+                    font-size:15px;
+                }
+			}
+    
+
+	@media (max-width:986px){
+		input.form-control.search-input {
+			
+			width: 100%;
+		}
+	}
+	@media (max-width:767px)and (min-width:576px){
+		.form-inline .form-control {
+		
+			width: auto;
+            justify-content: center;
+		}
+        .navbar .form-inline{
+            flex-wrap: nowrap;
+        }
+        .banner img{
+            display: none;
+
+        }
+		.banner .s-text {
+			padding: 0; 
+		}
+		.cta-text {
+			 padding:0; 
+			padding-bottom: 21px;
+		}
+		
+
+		.mycard h1{
+			font-size: 22px;
+			line-height: 22px;
+		}
+		.mycard p{
+			font-size: 15px;
+			line-height: 22px;
+
+			
+		}
+		.buy{
+			
+				padding: 5px 19px;
+				font-size: 16px;
+			
+		}
+
+		.team-card h1 {
+		 
+			font-size: 19px;
+			
+		 
+		}
+		.team-card p{
+			margin-bottom: 10px;
+		}
+        .footer-nav .navbar-nav{
+            align-items: center;
+        }
+        .footer-nav h3{
+            text-align: center;
+            margin: 0;
+        }
+         footer .desc {
+                    align-items: center;
+                    padding-top: 20px;
+                }
+                .footer-nav .nav-link{
+                    font-size:15px;
+                }
+            
+      
+		
+
+	}
+
+	
+        @media screen and (max-width:576px) and (min-width:472px) {
+			.form-inline .form-control {
+		
+				width: auto;
+				justify-content: center;
+			}
+			.navbar .form-inline{
+				flex-wrap: nowrap;
+			}
+			.banner img{
+				display: none;
+	
+			} 
+			.banner h1 {
+				font-size: 45px;
+			}
+		
+		.banner p {
+			font-size: 22px;
+		}
+		.cta {
+			margin:0; 
+			padding:0 40px; 
+		}
+		.cta-text h1 {
+			
+				font-size: 38px;
+				line-height: 41px;
+			
+		
+		}
+		.cta-text p{
+			font-size: 17px;
+			line-height: 25px;
+		}
+		.cta-btn-div {
+			justify-content: flex-start;
+		
+		}
+		.mycard h1{
+			font-size: 22px;
+			line-height: 22px;
+		}
+		.mycard p{
+			font-size: 15px;
+			line-height: 22px;
+
+			
+		}
+		.services{
+			padding: 50px 40px;
+		}
+		.cta1-text h1 {
+			text-align: left;
+			font-size: 38px;
+		    line-height: 41px;
+		}
+		.cta1-text p {
+			text-align: left;
+			font-size: 17px;
+			line-height: 25px;
+		}
+		.pricing{
+			padding: 50px 40px;
+		}
+		.pricing p{
+			font-size: 18px;
+		}
+		.team{
+			padding: 50px 40px;
+		}
+		.team h1{
+			font-size: 40px;
+		}
+		.team p{
+			font-size: 18px;
+		}
+		.team-card h1 {
+		 
+			font-size: 19px;
+			
+		 
+		}
+		.team-card p{
+			margin-bottom: 10px;
+		}
+			.post{
+                padding: 50px 40px;
+            }
+			.post h1{
+				font-size: 40px;
+			}
+			.post p{
+				font-size: 18px;
+			}
+			.footer-nav .navbar-nav{
+				align-items: center;
+			}
+			.footer-nav h3{
+				text-align: center;
+				margin: 0;
+			}
+			 footer .desc {
+						align-items: center;
+						padding-top: 20px;
+					}
+					.footer-nav .nav-link{
+						font-size:15px;
+					}
+        }
+		
+	@media (max-width:471px){
+		.form-inline .form-control {
+		
+			width: auto;
+			justify-content: center;
+		}
+		.navbar .form-inline{
+			flex-wrap: nowrap;
+		}
+		.banner img{
+			display: none;
+
+		} 
+		.banner .s-text {
+			padding: 20px;
+		}
+		.banner h1 {
+			font-size: 40px;
+		}
+		.banner p {
+			font-size: 18px;
+		}
+		.banner .btn {
+			font-size: 16px;
+		}
+		.cta {
+			margin:0; 
+			padding:0 40px; 
+		}
+		.cta-text h1 {
+			font-size: 30px;
+		}
+		.services {
+			padding: 50px 10px;
+		}
+		.services h1 {
+			font-size: 38px;
+		}
+		.services p{
+			font-size: 19px;
+		}
+		
+		.cta1-text h1 {
+			font-size: 30px;
+			text-align: left;
+		}
+		.cta1-text p{
+			text-align: left;
+			font-size: 18px;
+		}
+		.cta-btn-div {
+			justify-content: flex-start;
+		
+		}
+		.pricing{
+			padding: 50px 10px;
+		}
+		.pricing h1 {
+			font-size: 38px;
+		}
+		.pricing p{
+			font-size: 19px;
+		}
+		.mycard h1{
+			font-size: 22px;
+			line-height: 22px;
+		}
+		.mycard p{
+			font-size: 15px;
+			line-height: 22px;
+
+			
+		}
+		.team{
+			padding: 50px 10px;
+		}
+		.team h1{
+			font-size: 38px;
+		}
+		.team p{
+			font-size: 19px;
+		}
+		.team-card h1 {
+		 
+			font-size: 19px;
+			
+		 
+		}
+		.team-card p{
+			margin-bottom: 10px;
+		}
+			.post{
+                padding: 50px 10px;
+            }
+			.post h1{
+				font-size: 38px;
+			}
+			.post p{
+				font-size: 18px;
+			}
+			.footer-nav .navbar-nav{
+				align-items: center;
+			}
+			.footer-nav h3{
+				text-align: center;
+				margin: 0;
+			}
+			 footer .desc {
+						align-items: center;
+						padding-top: 20px;
+					}
+					.footer-nav .nav-link{
+						font-size:15px;
+					}
+	}
+		
